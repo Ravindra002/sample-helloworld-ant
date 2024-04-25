@@ -1,8 +1,6 @@
 version: 0.2
 
-env:
-  exported-variables:
-    - ARTIFACT_NAME="test-$(date +%Y-%m-%d)"
+
 phases:
   install:
     runtime-versions:
@@ -21,4 +19,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  name: $ARTIFACT_NAME
+  name: test-project-$(date +%Y-%m-%d)
