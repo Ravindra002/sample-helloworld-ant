@@ -18,5 +18,3 @@ phases:
 artifacts:
   files:
     - '**/*'
-  name: java-$CODE_BUILD_NUMBER
-  discarded-paths: yes
